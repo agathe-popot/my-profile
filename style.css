@@ -1,0 +1,102 @@
+/*Colors and Fonts*/
+
+body {
+	background: rgb(240,240,240);
+    color: #071e3d;
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+}
+
+h1,h2 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	color: #1f4287;
+	font-size: 50PX;
+}
+
+h2 {
+	font-size: 35PX;
+    color: #278ea5;
+}
+
+a {
+	text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bolder;
+    color: #21e6c1;
+ }
+
+a:hover {
+  color:#ce2e6c ;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/*Custom design and class*/
+
+.container {
+	width: 900px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+	background-color: white;
+	border-radius :5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	padding: 40px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+.btn-green {
+	background-color: #21e6c1;
+	color: white;
+	padding: 20px;
+	border-radius:5px;
+}
+.btn-green:hover {
+	background-color: #ce2e6c;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+/*Adjustment design and id*/
+
+#Introduction {
+	padding-bottom: 10px;
+}
+
